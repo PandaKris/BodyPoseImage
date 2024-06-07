@@ -11,6 +11,17 @@
 		6753AF4C2C11B19700954E20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6753AF4B2C11B19700954E20 /* ContentView.swift */; };
 		6753AF4E2C11B19800954E20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6753AF4D2C11B19800954E20 /* Assets.xcassets */; };
 		6753AF512C11B19800954E20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6753AF502C11B19800954E20 /* Preview Assets.xcassets */; };
+		6753AF582C11B1B500954E20 /* VisionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6753AF572C11B1B500954E20 /* VisionDetector.swift */; };
+		6753AF5B2C11B21100954E20 /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6753AF5A2C11B21100954E20 /* UIImage+Ext.swift */; };
+		6753AF5D2C11B25600954E20 /* UIBezierPath+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6753AF5C2C11B25600954E20 /* UIBezierPath+Ext.swift */; };
+		6753AF5F2C11B27F00954E20 /* CGImagePropertyOrientation+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6753AF5E2C11B27F00954E20 /* CGImagePropertyOrientation+Ext.swift */; };
+		6753AF612C11B29A00954E20 /* CGPoint+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6753AF602C11B29A00954E20 /* CGPoint+Ext.swift */; };
+		6753AF632C11B2B300954E20 /* VNRecognizedPoint+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6753AF622C11B2B300954E20 /* VNRecognizedPoint+Ext.swift */; };
+		6753AF662C11B2F600954E20 /* ResultPointsProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6753AF652C11B2F600954E20 /* ResultPointsProviding.swift */; };
+		6753AF682C11B32B00954E20 /* VNDetectHumanHandPoseRequest+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6753AF672C11B32B00954E20 /* VNDetectHumanHandPoseRequest+Ext.swift */; };
+		6753AF6A2C11B35A00954E20 /* VNDetectHumanBodyPoseRequest+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6753AF692C11B35A00954E20 /* VNDetectHumanBodyPoseRequest+Ext.swift */; };
+		6753AF6C2C11B38100954E20 /* VNDetectFaceLandmarksRequest+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6753AF6B2C11B38100954E20 /* VNDetectFaceLandmarksRequest+Ext.swift */; };
+		6753AF6F2C11B8A500954E20 /* ImagePickerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6753AF6E2C11B8A500954E20 /* ImagePickerCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		6753AF4B2C11B19700954E20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6753AF4D2C11B19800954E20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6753AF502C11B19800954E20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6753AF572C11B1B500954E20 /* VisionDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionDetector.swift; sourceTree = "<group>"; };
+		6753AF5A2C11B21100954E20 /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
+		6753AF5C2C11B25600954E20 /* UIBezierPath+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+Ext.swift"; sourceTree = "<group>"; };
+		6753AF5E2C11B27F00954E20 /* CGImagePropertyOrientation+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+Ext.swift"; sourceTree = "<group>"; };
+		6753AF602C11B29A00954E20 /* CGPoint+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Ext.swift"; sourceTree = "<group>"; };
+		6753AF622C11B2B300954E20 /* VNRecognizedPoint+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VNRecognizedPoint+Ext.swift"; sourceTree = "<group>"; };
+		6753AF652C11B2F600954E20 /* ResultPointsProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPointsProviding.swift; sourceTree = "<group>"; };
+		6753AF672C11B32B00954E20 /* VNDetectHumanHandPoseRequest+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VNDetectHumanHandPoseRequest+Ext.swift"; sourceTree = "<group>"; };
+		6753AF692C11B35A00954E20 /* VNDetectHumanBodyPoseRequest+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VNDetectHumanBodyPoseRequest+Ext.swift"; sourceTree = "<group>"; };
+		6753AF6B2C11B38100954E20 /* VNDetectFaceLandmarksRequest+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VNDetectFaceLandmarksRequest+Ext.swift"; sourceTree = "<group>"; };
+		6753AF6E2C11B8A500954E20 /* ImagePickerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +73,11 @@
 		6753AF482C11B19700954E20 /* BodyPoseImage */ = {
 			isa = PBXGroup;
 			children = (
+				6753AF6D2C11B89700954E20 /* ImagePicker */,
+				6753AF642C11B2E700954E20 /* Protocols */,
+				6753AF592C11B20100954E20 /* Extensions */,
 				6753AF492C11B19700954E20 /* BodyPoseImageApp.swift */,
+				6753AF572C11B1B500954E20 /* VisionDetector.swift */,
 				6753AF4B2C11B19700954E20 /* ContentView.swift */,
 				6753AF4D2C11B19800954E20 /* Assets.xcassets */,
 				6753AF4F2C11B19800954E20 /* Preview Content */,
@@ -65,6 +91,37 @@
 				6753AF502C11B19800954E20 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6753AF592C11B20100954E20 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6753AF5A2C11B21100954E20 /* UIImage+Ext.swift */,
+				6753AF5C2C11B25600954E20 /* UIBezierPath+Ext.swift */,
+				6753AF5E2C11B27F00954E20 /* CGImagePropertyOrientation+Ext.swift */,
+				6753AF602C11B29A00954E20 /* CGPoint+Ext.swift */,
+				6753AF622C11B2B300954E20 /* VNRecognizedPoint+Ext.swift */,
+				6753AF672C11B32B00954E20 /* VNDetectHumanHandPoseRequest+Ext.swift */,
+				6753AF692C11B35A00954E20 /* VNDetectHumanBodyPoseRequest+Ext.swift */,
+				6753AF6B2C11B38100954E20 /* VNDetectFaceLandmarksRequest+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6753AF642C11B2E700954E20 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6753AF652C11B2F600954E20 /* ResultPointsProviding.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6753AF6D2C11B89700954E20 /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				6753AF6E2C11B8A500954E20 /* ImagePickerCoordinator.swift */,
+			);
+			path = ImagePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +195,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				6753AF4C2C11B19700954E20 /* ContentView.swift in Sources */,
+				6753AF6A2C11B35A00954E20 /* VNDetectHumanBodyPoseRequest+Ext.swift in Sources */,
+				6753AF5D2C11B25600954E20 /* UIBezierPath+Ext.swift in Sources */,
+				6753AF6F2C11B8A500954E20 /* ImagePickerCoordinator.swift in Sources */,
+				6753AF6C2C11B38100954E20 /* VNDetectFaceLandmarksRequest+Ext.swift in Sources */,
+				6753AF682C11B32B00954E20 /* VNDetectHumanHandPoseRequest+Ext.swift in Sources */,
+				6753AF632C11B2B300954E20 /* VNRecognizedPoint+Ext.swift in Sources */,
+				6753AF5B2C11B21100954E20 /* UIImage+Ext.swift in Sources */,
+				6753AF582C11B1B500954E20 /* VisionDetector.swift in Sources */,
+				6753AF612C11B29A00954E20 /* CGPoint+Ext.swift in Sources */,
 				6753AF4A2C11B19700954E20 /* BodyPoseImageApp.swift in Sources */,
+				6753AF5F2C11B27F00954E20 /* CGImagePropertyOrientation+Ext.swift in Sources */,
+				6753AF662C11B2F600954E20 /* ResultPointsProviding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +343,7 @@
 				DEVELOPMENT_TEAM = YA2L55RA8L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Using the camera to detect hand / body / face landmarks";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +373,7 @@
 				DEVELOPMENT_TEAM = YA2L55RA8L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Using the camera to detect hand / body / face landmarks";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
